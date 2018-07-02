@@ -24,13 +24,17 @@ body
   background-image: url('<?php echo get_bloginfo( 'template_directory' );?>/img/Mserentatis.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: hsla(89, 43%, 51%, 0.3);
   
  }
 .wrapper
  {
   opacity: 0.8;
-  color: orange;
-  text-shadow: 2px 2px blue;
+  color: black;
+  text-shadow: 2px 2px orange;
+  background-color: #808080;;
+  width:100vw;
+  height: 100vh; 
  }
 </style>
 <body>
